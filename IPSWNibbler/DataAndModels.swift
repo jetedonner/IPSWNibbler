@@ -9,7 +9,7 @@ import Foundation
 
 let BASE_IPSW_API_URL : String = "https://api.ipsw.me/v4/"
 
-enum IPSWAPIFunction: Identifiable {
+enum IPSWAPIFunction: Identifiable, CaseIterable {
     case selectFunction
     case device
     case devices

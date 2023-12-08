@@ -14,6 +14,8 @@
 		551311AB2B21114C00B59393 /* DataAndModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551311AA2B21114C00B59393 /* DataAndModels.swift */; };
 		55C79EB92B223C45001EF80B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 55C79EB72B223C45001EF80B /* README.md */; };
 		55C79EBA2B223C45001EF80B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 55C79EB82B223C45001EF80B /* LICENSE */; };
+		55C79EE52B227554001EF80B /* SwiftUIView-Ext-UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C79EE42B227554001EF80B /* SwiftUIView-Ext-UI.swift */; };
+		55C79EE72B227744001EF80B /* SwiftUIView-Ext-FetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C79EE62B227744001EF80B /* SwiftUIView-Ext-FetchData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		551311AA2B21114C00B59393 /* DataAndModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAndModels.swift; sourceTree = "<group>"; };
 		55C79EB72B223C45001EF80B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		55C79EB82B223C45001EF80B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		55C79EE42B227554001EF80B /* SwiftUIView-Ext-UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUIView-Ext-UI.swift"; sourceTree = "<group>"; };
+		55C79EE62B227744001EF80B /* SwiftUIView-Ext-FetchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUIView-Ext-FetchData.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 			children = (
 				551311932B1CE08A00B59393 /* IPSWNibblerApp.swift */,
 				551311A62B1E542200B59393 /* SwiftUIView.swift */,
+				55C79EE42B227554001EF80B /* SwiftUIView-Ext-UI.swift */,
+				55C79EE62B227744001EF80B /* SwiftUIView-Ext-FetchData.swift */,
 				551311AA2B21114C00B59393 /* DataAndModels.swift */,
 				551311972B1CE08C00B59393 /* Assets.xcassets */,
 				5513119C2B1CE08C00B59393 /* IPSWNibbler.entitlements */,
@@ -152,7 +158,9 @@
 			files = (
 				551311942B1CE08A00B59393 /* IPSWNibblerApp.swift in Sources */,
 				551311AB2B21114C00B59393 /* DataAndModels.swift in Sources */,
+				55C79EE52B227554001EF80B /* SwiftUIView-Ext-UI.swift in Sources */,
 				551311A72B1E542200B59393 /* SwiftUIView.swift in Sources */,
+				55C79EE72B227744001EF80B /* SwiftUIView-Ext-FetchData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
