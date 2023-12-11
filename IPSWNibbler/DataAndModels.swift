@@ -127,15 +127,15 @@ struct FirmawareModel: Codable {
     let signed: Bool
 }
 
-struct DeviceModelNG3: Codable {
-    let name: String
-    let identifier: String
+struct DeviceModelNG3: DeviceModelNG2 {
+    /*let name: String
+    let identifier: String*/
     let firmwares: [FirmawareModel]
-    let boards: [BoardModel]
+    /*let boards: [BoardModel]
     let boardconfig: String
     let platform: String
     let cpid: Int
-    let bdid: Int
+    let bdid: Int*/
 }
 
 struct BoardModel: Codable {
