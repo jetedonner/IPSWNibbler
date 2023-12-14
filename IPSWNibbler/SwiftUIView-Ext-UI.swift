@@ -66,10 +66,10 @@ extension SwiftUIView{
                         do {
                             firmwaresData = try await fetchData(apiUrl: "\(BASE_IPSW_API_URL)\(selectedFunctionOption.url)/iPhone8,1?type=ipsw", responseType: DeviceModelNG3.self)
                             print(releases)
+                            treeRoot.children = getFirmwaresTree(firmware: firmwaresData!)
                         } catch {
                             print("Failed to fetch firmwares: \(error)")
                         }
-                        treeRoot.children = getFirmwaresTree(firmware: firmwaresData!)
                     }
                 }else{
                     showText = false
